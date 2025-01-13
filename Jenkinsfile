@@ -56,6 +56,7 @@ pipeline {
 				script {
 					withCredentials([usernamePassword(credentialsId: 'sonarqube',usernameVariable: 'SONARQUBE_USER',passwordVariable: 'SONARQUBE_TOKEN')]) {
 						sh '''
+							cd repo1
 							sonar-scanner \
 								-Dsonar.projectKey=my-flask-app \
 								-Dsonar.sources=./application \
