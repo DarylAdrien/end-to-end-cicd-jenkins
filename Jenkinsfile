@@ -20,7 +20,7 @@ pipeline {
         GIT_REPO_URL = 'https://github.com/DarylAdrien/cicd-k8s-manifests.git' 
         GIT_BRANCH = 'main' 
 		GIT_USER_NAME = "DarylAdrien" 
-		GIT_REPO_NAME = "end-to-end-cicd-jenkins"
+		GIT_REPO_NAME = "cicd-k8s-manifests"
     }
 
     stages {
