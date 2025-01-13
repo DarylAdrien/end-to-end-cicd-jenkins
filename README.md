@@ -61,18 +61,18 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
 
 ## Prerequisites
 
-  Jenkins
-  SonarQube
-  Docker
-  Kubernetes cluster (minikube for local development)
-  ArgoCD
+  - Jenkins
+  - SonarQube
+  - Docker
+  - Kubernetes cluster (minikube for local development)
+  - ArgoCD
 
 
 ---
 
 ## Installing
 
-  ### Jenkins
+  ### **Jenkins**
    ``` bash
       curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
       /usr/share/keyrings/jenkins-keyring.asc > /dev/null
@@ -83,13 +83,13 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
       sudo apt-get install jenkins
   ```
 
-  ### Docker
+  ### **Docker**
   ``` bash
       sudo apt update
       sudo apt install docker.io
   ```
 
-  ### SonarQube
+  ### **SonarQube**
   ```bash
       apt install unzip
       adduser sonarqube
