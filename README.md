@@ -6,7 +6,7 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
 
 ---
 
-![Project Image](cicd.png)
+![Project Image](images/cicd.png)
 
 ---
 
@@ -34,6 +34,10 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
 ### 7. **ArgoCD Synchronization**
 - ArgoCD continuously monitors the `cicd-k8s-manifests` repository for changes.
 - Upon detecting changes, ArgoCD updates the Kubernetes cluster to deploy the latest version of the Flask application.
+
+---
+
+![Project Image](images/jenkins-pipeline.png)
 
 ---
 
@@ -73,6 +77,12 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
 
 ---
 
+![Project Image](images/sonarQube.png)
+
+
+---
+
+
 ## Installing
 
   ### **Jenkins**
@@ -104,6 +114,12 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
       ./sonar.sh start
   ```
 
+---
+
+![Project Image](images/argo%20cd.png)
+
+
+---
 
 ## License
 
