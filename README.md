@@ -6,6 +6,9 @@ This repository demonstrates an end-to-end CI/CD pipeline for a Flask applicatio
 
 ---
 
+![Project Image](cicd.png)
+
+---
 
 ## Project Workflow
 
